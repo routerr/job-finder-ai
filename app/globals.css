@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-midnight text-white antialiased;
+}
+
+::selection {
+  background: rgba(124, 92, 255, 0.4);
+}

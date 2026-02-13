@@ -5,17 +5,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "midnight": "#0b1220",
-        "aurora": "#7c5cff",
-        "skyline": "#4cc9f0",
-        "mist": "#eaf2ff"
+        crust: '#11111b',
+        mantle: '#181825',
+        base: '#1e1e2e',
+        surface0: '#313244',
+        surface1: '#45475a',
+        surface2: '#585b70',
+        overlay0: '#6c7086',
+        overlay1: '#7f849c',
+        subtext0: '#a6adc8',
+        subtext1: '#bac2de',
+        text: '#cdd6f4',
+        mauve: '#cba6f7',
+        blue: '#89b4fa',
+        green: '#a6e3a1',
       },
       boxShadow: {
-        glow: "0 0 40px rgba(124, 92, 255, 0.35)"
-      }
-    }
+        glow: '0 0 40px rgba(203, 166, 247, 0.35)',
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
 
 export default config;
